@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Total Quotes",
+      "count": 89,
+      "percent": 5.0,
+      "value": "$24,789.20"
+    },
+    {
+      "title": "Total Orders",
+      "count": 256,
+      "percent": 8.5,
+      "value": "$3.5M"
+    }
+  ],
+  "budget": {
+    "title": "Budget Overview",
+    "subtitle": "Summary of the budget plan for November",
+    "percentage": 0.9,
+    "spent": "$450,000",
+    "remaining": "$50,000"
+  },
+  "images": [
+    "assets/images/shirt.png",
+    "assets/images/shirt.png",
+    "assets/images/shirt.png"
+  ]
+}

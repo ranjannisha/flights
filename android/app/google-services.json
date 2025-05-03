@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "466176580366",
+    "project_id": "flight-7e3bb",
+    "storage_bucket": "flight-7e3bb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466176580366:android:eac248d2c53016cf22555f",
+        "android_client_info": {
+          "package_name": "com.flight.flight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt4M33YjyXFdGp4b8spFB5G3HIWwo_oVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

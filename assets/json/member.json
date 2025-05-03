@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "message": "Fetched successfully",
+  "data": [
+    {
+      "name": "James Rodriguez",
+      "role": "Sales Manager",
+      "email": "jamesrodri@infogrid.com",
+      "image": "assets/images/jenny.png"
+    },
+    {
+      "name": "Ronald Richards",
+      "role": "Employee",
+      "email": "RonaldR@infogrid.com",
+      "image": "assets/images/jenny.png"
+    },
+    {
+      "name": "Jane Cooper",
+      "role": "Sales Manager",
+      "email": "Janec@infogrid.com",
+      "image": "assets/images/jenny.png"
+    },
+    {
+      "name": "Theresa Webb",
+      "role": "Marketing",
+      "email": "Webbtheresa@infogrid.com",
+      "image": "assets/images/jenny.png"
+    },
+    {
+      "name": "Ralph Edwards",
+      "role": "Sales Manager",
+      "email": "RalphEd@infogrid.com",
+      "image": "assets/images/jenny.png"
+    },
+    {
+      "name": "Jenny Wilson",
+      "role": "Marketing",
+      "email": "jennywil@infogrid.com",
+      "image": "assets/images/jenny.png"
+    }
+  ]
+}

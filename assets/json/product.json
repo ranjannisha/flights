@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "title": "Premium Ripstop Lightweight Long Sleeve Shirt",
+  "price": 32.56,
+  "description": "100% Cotton Ripstop Weave 145 GSM/100% Cotton Mesh",
+  "colors": ["#F37021", "#1C1C1C"],
+  "availableSizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
+  "selectedSize": "XL",
+  "budgetLeft": 500.0,
+  "lastRequestedDate": "2024-01-07",
+  "images": [
+    "assets/images/shirt.png",
+    "assets/images/shirt.png",
+    "assets/images/shirt.png"
+  ]
+}
