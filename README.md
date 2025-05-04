@@ -165,9 +165,9 @@ the new locale.
 
 Before running this project, make sure you have the following installed:
 
-- Flutter: 3.19.5
-- Dart: 3.3.3
-- DevTools: 2.31.1
+- Flutter: 3.29.3
+- Dart: 3.7.2
+- DevTools: 2.42.3
 
 You can clone the Flutter SDK from the official GitHub repository:
 ```bash

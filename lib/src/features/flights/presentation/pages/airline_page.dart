@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -5,6 +7,7 @@ import 'package:flight/l10n/l10n.dart';
 import 'package:flight/src/core/extensions/text_style_extensions.dart';
 import 'package:flight/src/core/themes/app_styles.dart';
 import 'package:flight/src/features/flights/presentation/bloc/airline/airline_cubit.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 @RoutePage()
 class AirlinePage extends StatefulWidget {
@@ -51,13 +54,12 @@ class _AirlinePageState extends State<AirlinePage> {
             TextField(
               controller: _controller,
               onChanged: _onSearchChanged,
-              decoration: const InputDecoration(
-                labelText: 'Search by airline name',
-                border: OutlineInputBorder(),
+              decoration: InputDecoration(
+                labelText: l10n.searchByAirlineName,
+                border: const OutlineInputBorder(),
               ),
             ),
-            const SizedBox(height: 16),
-            // Airline List View
+            16.verticalSpace,
             Expanded(
               child: BlocBuilder<AirlineCubit, AirlineState>(
                 builder: (context, state) {
@@ -70,12 +72,9 @@ class _AirlinePageState extends State<AirlinePage> {
                           child: Text(message ?? 'Something went wrong'),
                         ),
                     success: (airlines, allLegs, selectedAirlineFilter) {
-                      // If no airlines, display a message
                       if (airlines.isEmpty) {
                         return const Center(child: Text('No airlines found.'));
                       }
-
-                      // ListView to display the airline data
                       return ListView.builder(
                         itemCount: airlines.length,
                         itemBuilder: (context, index) {

@@ -38,7 +38,8 @@
     "airline": "Airline",
     "price": "Price",
     "dontHaveAccount": "Don't have Account? ",
-    "signUp": "SignUp"
+    "signUp": "SignUp",
+    "searchByAirlineName": "Search by airline name"
 }
 
 
